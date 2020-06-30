@@ -1,0 +1,887 @@
+[1589889894.207][INFO]: Starting ChromeDriver 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 42078
+[1589889894.207][INFO]: Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1589889894.917][INFO]: [cd93d3cc5af9190ee7f4da4143b2ebae] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "window-size=1024,768", "--no-sandbox" ],
+            "extensions": [  ]
+         }
+      } ]
+   },
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "window-size=1024,768", "--no-sandbox" ],
+         "extensions": [  ]
+      }
+   }
+}
+[1589889894.922][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1589889894.923][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1589889894.943][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --load-extension="C:\Users\MSINGH2\AppData\Local\Temp\scoped_dir9864_1081714153\internal" --log-level=0 --no-first-run --no-sandbox --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\MSINGH2\AppData\Local\Temp\scoped_dir9864_698277170" --window-size=1024,768 data:,
+[1589889895.360][DEBUG]: DevTools HTTP Request: http://localhost:57244/json/version
+[1589889895.680][DEBUG]: DevTools HTTP Response: {
+   "Browser": "Chrome/81.0.4044.138",
+   "Protocol-Version": "1.3",
+   "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36",
+   "V8-Version": "8.1.307.32",
+   "WebKit-Version": "537.36 (@8c6c7ba89cc9453625af54f11fd83179e23450fa)",
+   "webSocketDebuggerUrl": "ws://localhost:57244/devtools/browser/f21b14e6-2c1c-4a67-a467-4b05296e45b9"
+}
+
+[1589889895.680][WARNING]: This version of ChromeDriver has not been tested with Chrome version 81.
+[1589889895.680][DEBUG]: DevTools HTTP Request: http://localhost:57244/json/list
+[1589889895.690][DEBUG]: DevTools HTTP Response: [ {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:57244/devtools/page/6C4A3C1029165B771B9B4C9EC2F294A0",
+   "id": "6C4A3C1029165B771B9B4C9EC2F294A0",
+   "title": "Chrome Automation Extension",
+   "type": "background_page",
+   "url": "chrome-extension://aapnijgdinlhnhlmodcfapnahmbfebeb/_generated_background_page.html",
+   "webSocketDebuggerUrl": "ws://localhost:57244/devtools/page/6C4A3C1029165B771B9B4C9EC2F294A0"
+}, {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:57244/devtools/page/3763D2748B1EC0922C0235077BB2FFED",
+   "id": "3763D2748B1EC0922C0235077BB2FFED",
+   "title": "",
+   "type": "page",
+   "url": "data:,",
+   "webSocketDebuggerUrl": "ws://localhost:57244/devtools/page/3763D2748B1EC0922C0235077BB2FFED"
+} ]
+
+[1589889895.690][DEBUG]: DevTools HTTP Request: http://localhost:57244/json/list
+[1589889895.692][DEBUG]: DevTools HTTP Response: [ {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:57244/devtools/page/6C4A3C1029165B771B9B4C9EC2F294A0",
+   "id": "6C4A3C1029165B771B9B4C9EC2F294A0",
+   "title": "Chrome Automation Extension",
+   "type": "background_page",
+   "url": "chrome-extension://aapnijgdinlhnhlmodcfapnahmbfebeb/_generated_background_page.html",
+   "webSocketDebuggerUrl": "ws://localhost:57244/devtools/page/6C4A3C1029165B771B9B4C9EC2F294A0"
+}, {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:57244/devtools/page/3763D2748B1EC0922C0235077BB2FFED",
+   "id": "3763D2748B1EC0922C0235077BB2FFED",
+   "title": "",
+   "type": "page",
+   "url": "data:,",
+   "webSocketDebuggerUrl": "ws://localhost:57244/devtools/page/3763D2748B1EC0922C0235077BB2FFED"
+} ]
+
+[1589889895.731][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1589889896.889][DEBUG]: DevTools WebSocket Command: Log.enable (id=1) 3763D2748B1EC0922C0235077BB2FFED {
+
+}
+[1589889896.889][DEBUG]: DevTools WebSocket Command: DOM.getDocument (id=2) 3763D2748B1EC0922C0235077BB2FFED {
+
+}
+[1589889896.889][DEBUG]: DevTools WebSocket Command: Target.setAutoAttach (id=3) 3763D2748B1EC0922C0235077BB2FFED {
+   "autoAttach": true,
+   "flatten": true,
+   "waitForDebuggerOnStart": false
+}
+[1589889896.889][DEBUG]: DevTools WebSocket Command: Page.enable (id=4) 3763D2748B1EC0922C0235077BB2FFED {
+
+}
+[1589889896.889][DEBUG]: DevTools WebSocket Command: Page.enable (id=5) 3763D2748B1EC0922C0235077BB2FFED {
+
+}
+[1589889896.890][DEBUG]: DevTools WebSocket Response: Log.enable (id=1) 3763D2748B1EC0922C0235077BB2FFED {
+
+}
+[1589889896.890][DEBUG]: DevTools WebSocket Response: DOM.getDocument (id=2) 3763D2748B1EC0922C0235077BB2FFED {
+   "root": {
+      "backendNodeId": 2,
+      "baseURL": "data:,",
+      "childNodeCount": 1,
+      "children": [ {
+         "attributes": [  ],
+         "backendNodeId": 3,
+         "childNodeCount": 2,
+         "children": [ {
+            "attributes": [  ],
+            "backendNodeId": 4,
+            "childNodeCount": 0,
+            "localName": "head",
+            "nodeId": 3,
+            "nodeName": "HEAD",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 2
+         }, {
+            "attributes": [  ],
+            "backendNodeId": 5,
+            "childNodeCount": 0,
+            "localName": "body",
+            "nodeId": 4,
+            "nodeName": "BODY",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 2
+         } ],
+         "frameId": "3763D2748B1EC0922C0235077BB2FFED",
+         "localName": "html",
+         "nodeId": 2,
+         "nodeName": "HTML",
+         "nodeType": 1,
+         "nodeValue": "",
+         "parentId": 1
+      } ],
+      "documentURL": "data:,",
+      "localName": "",
+      "nodeId": 1,
+      "nodeName": "#document",
+      "nodeType": 9,
+      "nodeValue": "",
+      "xmlVersion": ""
+   }
+}
+[1589889896.890][DEBUG]: DevTools WebSocket Response: Target.setAutoAttach (id=3) 3763D2748B1EC0922C0235077BB2FFED {
+
+}
+[1589889896.890][DEBUG]: DevTools WebSocket Response: Page.enable (id=4) 3763D2748B1EC0922C0235077BB2FFED {
+
+}
+[1589889896.890][DEBUG]: DevTools WebSocket Response: Page.enable (id=5) 3763D2748B1EC0922C0235077BB2FFED {
+
+}
+[1589889896.890][DEBUG]: DevTools WebSocket Command: Runtime.enable (id=6) 3763D2748B1EC0922C0235077BB2FFED {
+
+}
+[1589889896.891][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated 3763D2748B1EC0922C0235077BB2FFED {
+   "context": {
+      "auxData": {
+         "frameId": "3763D2748B1EC0922C0235077BB2FFED",
+         "isDefault": true,
+         "type": "default"
+      },
+      "id": 1,
+      "name": "",
+      "origin": "://"
+   }
+}
+[1589889896.891][DEBUG]: DevTools WebSocket Response: Runtime.enable (id=6) 3763D2748B1EC0922C0235077BB2FFED {
+
+}
+[1589889896.891][DEBUG]: DevTools WebSocket Command: Page.enable (id=7) 3763D2748B1EC0922C0235077BB2FFED {
+
+}
+[1589889896.891][DEBUG]: DevTools WebSocket Response: Page.enable (id=7) 3763D2748B1EC0922C0235077BB2FFED {
+
+}
+[1589889896.891][DEBUG]: DevTools WebSocket Command: Runtime.enable (id=8) 3763D2748B1EC0922C0235077BB2FFED {
+
+}
+[1589889896.892][DEBUG]: DevTools WebSocket Response: Runtime.enable (id=8) 3763D2748B1EC0922C0235077BB2FFED {
+
+}
+[1589889896.892][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=9) 3763D2748B1EC0922C0235077BB2FFED {
+   "awaitPromise": true,
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+[1589889896.894][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=9) 3763D2748B1EC0922C0235077BB2FFED {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": 1
+      }
+   }
+}
+[1589889896.894][INFO]: [cd93d3cc5af9190ee7f4da4143b2ebae] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": false,
+      "browserName": "chrome",
+      "browserVersion": "81.0.4044.138",
+      "chrome": {
+         "chromedriverVersion": "80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882})",
+         "userDataDir": "C:\\Users\\MSINGH2\\AppData\\Local\\Temp\\scoped_dir9864_698277170"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:57244"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify"
+   },
+   "sessionId": "cd93d3cc5af9190ee7f4da4143b2ebae"
+}
+[1589889896.985][INFO]: [cd93d3cc5af9190ee7f4da4143b2ebae] COMMAND Navigate {
+   "url": "https://sspr.volvocars.biz/"
+}
+[1589889896.985][INFO]: Waiting for pending navigations...
+[1589889896.985][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=10) 3763D2748B1EC0922C0235077BB2FFED {
+   "expression": "1"
+}
+[1589889896.986][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=10) 3763D2748B1EC0922C0235077BB2FFED {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1589889896.986][DEBUG]: DevTools WebSocket Command: DOM.getDocument (id=11) 3763D2748B1EC0922C0235077BB2FFED {
+
+}
+[1589889896.988][DEBUG]: DevTools WebSocket Response: DOM.getDocument (id=11) 3763D2748B1EC0922C0235077BB2FFED {
+   "root": {
+      "backendNodeId": 2,
+      "baseURL": "data:,",
+      "childNodeCount": 1,
+      "children": [ {
+         "attributes": [  ],
+         "backendNodeId": 3,
+         "childNodeCount": 2,
+         "children": [ {
+            "attributes": [  ],
+            "backendNodeId": 4,
+            "childNodeCount": 0,
+            "localName": "head",
+            "nodeId": 7,
+            "nodeName": "HEAD",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 6
+         }, {
+            "attributes": [  ],
+            "backendNodeId": 5,
+            "childNodeCount": 0,
+            "localName": "body",
+            "nodeId": 8,
+            "nodeName": "BODY",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 6
+         } ],
+         "frameId": "3763D2748B1EC0922C0235077BB2FFED",
+         "localName": "html",
+         "nodeId": 6,
+         "nodeName": "HTML",
+         "nodeType": 1,
+         "nodeValue": "",
+         "parentId": 5
+      } ],
+      "documentURL": "data:,",
+      "localName": "",
+      "nodeId": 5,
+      "nodeName": "#document",
+      "nodeType": 9,
+      "nodeValue": "",
+      "xmlVersion": ""
+   }
+}
+[1589889896.988][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=12) 3763D2748B1EC0922C0235077BB2FFED {
+   "awaitPromise": true,
+   "expression": "document.readyState",
+   "returnByValue": true
+}
+[1589889896.989][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=12) 3763D2748B1EC0922C0235077BB2FFED {
+   "result": {
+      "type": "string",
+      "value": "complete"
+   }
+}
+[1589889896.989][INFO]: Done waiting for pending navigations. Status: ok
+[1589889896.989][DEBUG]: DevTools WebSocket Command: Page.navigate (id=13) 3763D2748B1EC0922C0235077BB2FFED {
+   "url": "https://sspr.volvocars.biz/"
+}
+[1589889897.502][DEBUG]: DevTools WebSocket Response: Page.navigate (id=13) 3763D2748B1EC0922C0235077BB2FFED {
+   "frameId": "3763D2748B1EC0922C0235077BB2FFED",
+   "loaderId": "8988AC424A3A13BF4928DF58D045DF18"
+}
+[1589889897.502][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=14) 3763D2748B1EC0922C0235077BB2FFED {
+   "expression": "document.URL"
+}
+[1589889897.504][DEBUG]: DevTools WebSocket Event: Runtime.executionContextsCleared 3763D2748B1EC0922C0235077BB2FFED {
+
+}
+[1589889897.532][DEBUG]: DevTools WebSocket Event: Page.frameStartedLoading 3763D2748B1EC0922C0235077BB2FFED {
+   "frameId": "3763D2748B1EC0922C0235077BB2FFED"
+}
+[1589889897.532][DEBUG]: DevTools WebSocket Event: Runtime.executionContextsCleared 3763D2748B1EC0922C0235077BB2FFED {
+
+}
+[1589889897.533][DEBUG]: DevTools WebSocket Event: Page.frameNavigated 3763D2748B1EC0922C0235077BB2FFED {
+   "frame": {
+      "id": "3763D2748B1EC0922C0235077BB2FFED",
+      "loaderId": "8988AC424A3A13BF4928DF58D045DF18",
+      "mimeType": "text/html",
+      "securityOrigin": "https://vcamauth.global.volvocars.biz",
+      "url": "https://vcamauth.global.volvocars.biz/nidp/idff/sso?RequestID=idp0rCibGhHz1BiSsPzVTxoA0LSEY&MajorVersion=1&MinorVersion=2&IssueInstant=2020-05-19T12%3A04%3A57Z&ProviderID=https%3A%2F%2Faccess.globa..."
+   }
+}
+[1589889897.533][DEBUG]: DevTools WebSocket Event: DOM.documentUpdated 3763D2748B1EC0922C0235077BB2FFED {
+
+}
+[1589889897.533][DEBUG]: DevTools WebSocket Command: DOM.getDocument (id=15) 3763D2748B1EC0922C0235077BB2FFED {
+
+}
+[1589889897.533][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated 3763D2748B1EC0922C0235077BB2FFED {
+   "context": {
+      "auxData": {
+         "frameId": "3763D2748B1EC0922C0235077BB2FFED",
+         "isDefault": true,
+         "type": "default"
+      },
+      "id": 1,
+      "name": "",
+      "origin": "https://vcamauth.global.volvocars.biz"
+   }
+}
+[1589889897.540][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=14) 3763D2748B1EC0922C0235077BB2FFED {
+   "result": {
+      "type": "string",
+      "value": "https://vcamauth.global.volvocars.biz/nidp/idff/sso?RequestID=idp0rCibGhHz1BiSsPzVTxoA0LSEY&MajorVersion=1&MinorVersion=2&IssueInstant=2020-05-19T12%3A04%3A57Z&ProviderID=https%3A%2F%2Faccess.globa..."
+   }
+}
+[1589889897.540][INFO]: Waiting for pending navigations...
+[1589889897.541][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=16) 3763D2748B1EC0922C0235077BB2FFED {
+   "expression": "1"
+}
+[1589889897.568][DEBUG]: DevTools WebSocket Event: Page.frameScheduledNavigation 3763D2748B1EC0922C0235077BB2FFED {
+   "delay": 0,
+   "frameId": "3763D2748B1EC0922C0235077BB2FFED",
+   "reason": "formSubmissionPost",
+   "url": "https://vcamauth.global.volvocars.biz/nidp/idff/sso?id=vcc-glblogin&sid=0&option=credential&sid=0&target=https%3A%2F%2Fsspr.volvocars.biz%2Fsspr%2F"
+}
+[1589889897.568][DEBUG]: DevTools WebSocket Event: Page.frameRequestedNavigation 3763D2748B1EC0922C0235077BB2FFED {
+   "frameId": "3763D2748B1EC0922C0235077BB2FFED",
+   "reason": "formSubmissionPost",
+   "url": "https://vcamauth.global.volvocars.biz/nidp/idff/sso?id=vcc-glblogin&sid=0&option=credential&sid=0&target=https%3A%2F%2Fsspr.volvocars.biz%2Fsspr%2F"
+}
+[1589889897.568][DEBUG]: DevTools WebSocket Event: Page.frameClearedScheduledNavigation 3763D2748B1EC0922C0235077BB2FFED {
+   "frameId": "3763D2748B1EC0922C0235077BB2FFED"
+}
+[1589889897.568][DEBUG]: DevTools WebSocket Event: Page.frameResized 3763D2748B1EC0922C0235077BB2FFED {
+
+}
+[1589889897.568][DEBUG]: DevTools WebSocket Response: DOM.getDocument (id=15) 3763D2748B1EC0922C0235077BB2FFED {
+   "root": {
+      "backendNodeId": 1,
+      "baseURL": "https://vcamauth.global.volvocars.biz/nidp/idff/sso?RequestID=idp0rCibGhHz1BiSsPzVTxoA0LSEY&MajorVersion=1&MinorVersion=2&IssueInstant=2020-05-19T12%3A04%3A57Z&ProviderID=https%3A%2F%2Faccess.globa...",
+      "childNodeCount": 1,
+      "children": [ {
+         "attributes": [  ],
+         "backendNodeId": 2,
+         "childNodeCount": 2,
+         "children": [ {
+            "attributes": [  ],
+            "backendNodeId": 3,
+            "childNodeCount": 1,
+            "localName": "head",
+            "nodeId": 3,
+            "nodeName": "HEAD",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 2
+         }, {
+            "attributes": [  ],
+            "backendNodeId": 4,
+            "childNodeCount": 2,
+            "localName": "body",
+            "nodeId": 4,
+            "nodeName": "BODY",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 2
+         } ],
+         "frameId": "3763D2748B1EC0922C0235077BB2FFED",
+         "localName": "html",
+         "nodeId": 2,
+         "nodeName": "HTML",
+         "nodeType": 1,
+         "nodeValue": "",
+         "parentId": 1
+      } ],
+      "documentURL": "https://vcamauth.global.volvocars.biz/nidp/idff/sso?RequestID=idp0rCibGhHz1BiSsPzVTxoA0LSEY&MajorVersion=1&MinorVersion=2&IssueInstant=2020-05-19T12%3A04%3A57Z&ProviderID=https%3A%2F%2Faccess.globa...",
+      "localName": "",
+      "nodeId": 1,
+      "nodeName": "#document",
+      "nodeType": 9,
+      "nodeValue": "",
+      "xmlVersion": ""
+   }
+}
+[1589889897.608][DEBUG]: DevTools WebSocket Event: Runtime.executionContextDestroyed 3763D2748B1EC0922C0235077BB2FFED {
+   "executionContextId": 1
+}
+[1589889897.608][DEBUG]: DevTools WebSocket Event: Runtime.executionContextsCleared 3763D2748B1EC0922C0235077BB2FFED {
+
+}
+[1589889897.608][DEBUG]: DevTools WebSocket Event: Page.frameNavigated 3763D2748B1EC0922C0235077BB2FFED {
+   "frame": {
+      "id": "3763D2748B1EC0922C0235077BB2FFED",
+      "loaderId": "2BAB65B4485F7C4D41ACF273BDC4FCB4",
+      "mimeType": "text/html",
+      "securityOrigin": "https://vcamauth.global.volvocars.biz",
+      "url": "https://vcamauth.global.volvocars.biz/nidp/idff/sso?id=vcc-glblogin&sid=0&option=credential&sid=0&target=https%3A%2F%2Fsspr.volvocars.biz%2Fsspr%2F"
+   }
+}
+[1589889897.608][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated 3763D2748B1EC0922C0235077BB2FFED {
+   "context": {
+      "auxData": {
+         "frameId": "3763D2748B1EC0922C0235077BB2FFED",
+         "isDefault": true,
+         "type": "default"
+      },
+      "id": 2,
+      "name": "",
+      "origin": "https://vcamauth.global.volvocars.biz"
+   }
+}
+[1589889897.608][DEBUG]: DevTools WebSocket Event: DOM.documentUpdated 3763D2748B1EC0922C0235077BB2FFED {
+
+}
+[1589889897.608][DEBUG]: DevTools WebSocket Command: DOM.getDocument (id=17) 3763D2748B1EC0922C0235077BB2FFED {
+
+}
+[1589889897.608][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=16) 3763D2748B1EC0922C0235077BB2FFED {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1589889897.608][DEBUG]: DevTools WebSocket Command: DOM.getDocument (id=18) 3763D2748B1EC0922C0235077BB2FFED {
+
+}
+[1589889897.614][DEBUG]: DevTools WebSocket Response: DOM.getDocument (id=17) 3763D2748B1EC0922C0235077BB2FFED {
+   "root": {
+      "backendNodeId": 5,
+      "baseURL": "https://vcamauth.global.volvocars.biz/nidp/idff/sso?id=vcc-glblogin&sid=0&option=credential&sid=0&target=https%3A%2F%2Fsspr.volvocars.biz%2Fsspr%2F",
+      "childNodeCount": 2,
+      "children": [ {
+         "backendNodeId": 6,
+         "localName": "",
+         "nodeId": 6,
+         "nodeName": "html",
+         "nodeType": 10,
+         "nodeValue": "",
+         "parentId": 5,
+         "publicId": "",
+         "systemId": ""
+      }, {
+         "attributes": [ "lang", "en" ],
+         "backendNodeId": 7,
+         "childNodeCount": 1,
+         "children": [ {
+            "attributes": [  ],
+            "backendNodeId": 8,
+            "childNodeCount": 14,
+            "localName": "head",
+            "nodeId": 8,
+            "nodeName": "HEAD",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 7
+         } ],
+         "frameId": "3763D2748B1EC0922C0235077BB2FFED",
+         "localName": "html",
+         "nodeId": 7,
+         "nodeName": "HTML",
+         "nodeType": 1,
+         "nodeValue": "",
+         "parentId": 5
+      } ],
+      "documentURL": "https://vcamauth.global.volvocars.biz/nidp/idff/sso?id=vcc-glblogin&sid=0&option=credential&sid=0&target=https%3A%2F%2Fsspr.volvocars.biz%2Fsspr%2F",
+      "localName": "",
+      "nodeId": 5,
+      "nodeName": "#document",
+      "nodeType": 9,
+      "nodeValue": "",
+      "xmlVersion": ""
+   }
+}
+[1589889897.621][DEBUG]: DevTools WebSocket Response: DOM.getDocument (id=18) 3763D2748B1EC0922C0235077BB2FFED {
+   "root": {
+      "backendNodeId": 5,
+      "baseURL": "https://vcamauth.global.volvocars.biz/nidp/idff/sso?id=vcc-glblogin&sid=0&option=credential&sid=0&target=https%3A%2F%2Fsspr.volvocars.biz%2Fsspr%2F",
+      "childNodeCount": 2,
+      "children": [ {
+         "backendNodeId": 6,
+         "localName": "",
+         "nodeId": 10,
+         "nodeName": "html",
+         "nodeType": 10,
+         "nodeValue": "",
+         "parentId": 9,
+         "publicId": "",
+         "systemId": ""
+      }, {
+         "attributes": [ "lang", "en" ],
+         "backendNodeId": 7,
+         "childNodeCount": 1,
+         "children": [ {
+            "attributes": [  ],
+            "backendNodeId": 8,
+            "childNodeCount": 14,
+            "localName": "head",
+            "nodeId": 12,
+            "nodeName": "HEAD",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 11
+         } ],
+         "frameId": "3763D2748B1EC0922C0235077BB2FFED",
+         "localName": "html",
+         "nodeId": 11,
+         "nodeName": "HTML",
+         "nodeType": 1,
+         "nodeValue": "",
+         "parentId": 9
+      } ],
+      "documentURL": "https://vcamauth.global.volvocars.biz/nidp/idff/sso?id=vcc-glblogin&sid=0&option=credential&sid=0&target=https%3A%2F%2Fsspr.volvocars.biz%2Fsspr%2F",
+      "localName": "",
+      "nodeId": 9,
+      "nodeName": "#document",
+      "nodeType": 9,
+      "nodeValue": "",
+      "xmlVersion": ""
+   }
+}
+[1589889897.621][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=19) 3763D2748B1EC0922C0235077BB2FFED {
+   "awaitPromise": true,
+   "expression": "document.readyState",
+   "returnByValue": true
+}
+[1589889897.623][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=19) 3763D2748B1EC0922C0235077BB2FFED {
+   "result": {
+      "type": "string",
+      "value": "loading"
+   }
+}
+[1589889897.660][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 3763D2748B1EC0922C0235077BB2FFED {
+   "childNodeCount": 15,
+   "nodeId": 12
+}
+[1589889897.660][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 3763D2748B1EC0922C0235077BB2FFED {
+   "childNodeCount": 16,
+   "nodeId": 12
+}
+[1589889897.660][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 3763D2748B1EC0922C0235077BB2FFED {
+   "childNodeCount": 17,
+   "nodeId": 12
+}
+[1589889897.660][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 3763D2748B1EC0922C0235077BB2FFED {
+   "childNodeCount": 18,
+   "nodeId": 12
+}
+[1589889897.660][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 3763D2748B1EC0922C0235077BB2FFED {
+   "childNodeCount": 19,
+   "nodeId": 12
+}
+[1589889897.660][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 3763D2748B1EC0922C0235077BB2FFED {
+   "childNodeCount": 20,
+   "nodeId": 12
+}
+[1589889897.660][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=20) 3763D2748B1EC0922C0235077BB2FFED {
+   "expression": "1"
+}
+[1589889897.662][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=20) 3763D2748B1EC0922C0235077BB2FFED {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1589889897.762][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589889897.762][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=21) 3763D2748B1EC0922C0235077BB2FFED {
+   "expression": "1"
+}
+[1589889897.768][DEBUG]: DevTools WebSocket Event: DOM.childNodeInserted 3763D2748B1EC0922C0235077BB2FFED {
+   "node": {
+      "attributes": [  ],
+      "backendNodeId": 9,
+      "childNodeCount": 1,
+      "localName": "div",
+      "nodeId": 13,
+      "nodeName": "DIV",
+      "nodeType": 1,
+      "nodeValue": ""
+   },
+   "parentNodeId": 11,
+   "previousNodeId": 0
+}
+[1589889897.769][DEBUG]: DevTools WebSocket Event: DOM.childNodeRemoved 3763D2748B1EC0922C0235077BB2FFED {
+   "nodeId": 13,
+   "parentNodeId": 11
+}
+[1589889897.769][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 3763D2748B1EC0922C0235077BB2FFED {
+   "childNodeCount": 21,
+   "nodeId": 12
+}
+[1589889897.769][DEBUG]: DevTools WebSocket Event: DOM.childNodeInserted 3763D2748B1EC0922C0235077BB2FFED {
+   "node": {
+      "attributes": [ "onload", "document.loginform.Ecom_User_ID.focus();", "style", "background-image:url(/nidp/images/vcc/src/hero.jpg)" ],
+      "backendNodeId": 10,
+      "childNodeCount": 0,
+      "localName": "body",
+      "nodeId": 14,
+      "nodeName": "BODY",
+      "nodeType": 1,
+      "nodeValue": ""
+   },
+   "parentNodeId": 11,
+   "previousNodeId": 12
+}
+[1589889897.769][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 3763D2748B1EC0922C0235077BB2FFED {
+   "childNodeCount": 1,
+   "nodeId": 14
+}
+[1589889897.769][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 3763D2748B1EC0922C0235077BB2FFED {
+   "childNodeCount": 2,
+   "nodeId": 14
+}
+[1589889897.769][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 3763D2748B1EC0922C0235077BB2FFED {
+   "childNodeCount": 3,
+   "nodeId": 14
+}
+[1589889897.769][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 3763D2748B1EC0922C0235077BB2FFED {
+   "childNodeCount": 4,
+   "nodeId": 14
+}
+[1589889897.769][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 3763D2748B1EC0922C0235077BB2FFED {
+   "childNodeCount": 5,
+   "nodeId": 14
+}
+[1589889897.769][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 3763D2748B1EC0922C0235077BB2FFED {
+   "childNodeCount": 6,
+   "nodeId": 14
+}
+[1589889897.769][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 3763D2748B1EC0922C0235077BB2FFED {
+   "childNodeCount": 7,
+   "nodeId": 14
+}
+[1589889897.769][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 3763D2748B1EC0922C0235077BB2FFED {
+   "childNodeCount": 8,
+   "nodeId": 14
+}
+[1589889897.769][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 3763D2748B1EC0922C0235077BB2FFED {
+   "childNodeCount": 9,
+   "nodeId": 14
+}
+[1589889897.769][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 3763D2748B1EC0922C0235077BB2FFED {
+   "childNodeCount": 10,
+   "nodeId": 14
+}
+[1589889897.769][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 3763D2748B1EC0922C0235077BB2FFED {
+   "childNodeCount": 11,
+   "nodeId": 14
+}
+[1589889897.769][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 3763D2748B1EC0922C0235077BB2FFED {
+   "childNodeCount": 10,
+   "nodeId": 14
+}
+[1589889897.769][DEBUG]: DevTools WebSocket Event: Log.entryAdded 3763D2748B1EC0922C0235077BB2FFED {
+   "entry": {
+      "args": [ {
+         "className": "HTMLInputElement",
+         "description": "input#pwd.form-control",
+         "objectId": "{\"injectedScriptId\":2,\"id\":1}",
+         "subtype": "node",
+         "type": "object"
+      } ],
+      "level": "verbose",
+      "source": "recommendation",
+      "text": "[DOM] Input elements should have autocomplete attributes (suggested: \"current-password\"): (More info: https://goo.gl/9p2vKq) %o",
+      "timestamp": 1.589889897767138e+12,
+      "url": "https://vcamauth.global.volvocars.biz/nidp/idff/sso?id=vcc-glblogin&sid=0&option=credential&sid=0&target=https%3A%2F%2Fsspr.volvocars.biz%2Fsspr%2F"
+   }
+}
+[1589889897.769][DEBUG]: DevTools WebSocket Event: DOM.documentUpdated 3763D2748B1EC0922C0235077BB2FFED {
+
+}
+[1589889897.769][DEBUG]: DevTools WebSocket Command: DOM.getDocument (id=22) 3763D2748B1EC0922C0235077BB2FFED {
+
+}
+[1589889897.770][DEBUG]: DevTools WebSocket Event: Page.domContentEventFired 3763D2748B1EC0922C0235077BB2FFED {
+   "timestamp": 1053715.602077
+}
+[1589889897.774][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=21) 3763D2748B1EC0922C0235077BB2FFED {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1589889897.774][DEBUG]: DevTools WebSocket Response: DOM.getDocument (id=22) 3763D2748B1EC0922C0235077BB2FFED {
+   "root": {
+      "backendNodeId": 5,
+      "baseURL": "https://vcamauth.global.volvocars.biz/nidp/idff/sso?id=vcc-glblogin&sid=0&option=credential&sid=0&target=https%3A%2F%2Fsspr.volvocars.biz%2Fsspr%2F",
+      "childNodeCount": 2,
+      "children": [ {
+         "backendNodeId": 6,
+         "localName": "",
+         "nodeId": 16,
+         "nodeName": "html",
+         "nodeType": 10,
+         "nodeValue": "",
+         "parentId": 15,
+         "publicId": "",
+         "systemId": ""
+      }, {
+         "attributes": [ "lang", "en" ],
+         "backendNodeId": 7,
+         "childNodeCount": 2,
+         "children": [ {
+            "attributes": [  ],
+            "backendNodeId": 8,
+            "childNodeCount": 21,
+            "localName": "head",
+            "nodeId": 18,
+            "nodeName": "HEAD",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 17
+         }, {
+            "attributes": [ "onload", "document.loginform.Ecom_User_ID.focus();", "style", "background-image:url(/nidp/images/vcc/src/hero.jpg)" ],
+            "backendNodeId": 10,
+            "childNodeCount": 10,
+            "localName": "body",
+            "nodeId": 19,
+            "nodeName": "BODY",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 17
+         } ],
+         "frameId": "3763D2748B1EC0922C0235077BB2FFED",
+         "localName": "html",
+         "nodeId": 17,
+         "nodeName": "HTML",
+         "nodeType": 1,
+         "nodeValue": "",
+         "parentId": 15
+      } ],
+      "documentURL": "https://vcamauth.global.volvocars.biz/nidp/idff/sso?id=vcc-glblogin&sid=0&option=credential&sid=0&target=https%3A%2F%2Fsspr.volvocars.biz%2Fsspr%2F",
+      "localName": "",
+      "nodeId": 15,
+      "nodeName": "#document",
+      "nodeType": 9,
+      "nodeValue": "",
+      "xmlVersion": ""
+   }
+}
+[1589889897.774][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=23) 3763D2748B1EC0922C0235077BB2FFED {
+   "expression": "1"
+}
+[1589889897.775][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=23) 3763D2748B1EC0922C0235077BB2FFED {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1589889897.786][DEBUG]: DevTools WebSocket Event: Log.entryAdded 3763D2748B1EC0922C0235077BB2FFED {
+   "entry": {
+      "level": "error",
+      "networkRequestId": "248.20",
+      "source": "network",
+      "text": "Failed to load resource: the server responded with a status of 404 ()",
+      "timestamp": 1.589889897781424e+12,
+      "url": "https://vcamauth.global.volvocars.biz/nidp/images/vcc/src/VolvoBroad.woff"
+   }
+}
+[1589889897.786][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=24) 3763D2748B1EC0922C0235077BB2FFED {
+   "expression": "1"
+}
+[1589889897.787][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=24) 3763D2748B1EC0922C0235077BB2FFED {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1589889897.887][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589889897.888][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=25) 3763D2748B1EC0922C0235077BB2FFED {
+   "expression": "1"
+}
+[1589889897.928][DEBUG]: DevTools WebSocket Event: Page.loadEventFired 3763D2748B1EC0922C0235077BB2FFED {
+   "timestamp": 1053715.754248
+}
+[1589889897.928][DEBUG]: DevTools WebSocket Event: Page.frameStoppedLoading 3763D2748B1EC0922C0235077BB2FFED {
+   "frameId": "3763D2748B1EC0922C0235077BB2FFED"
+}
+[1589889897.928][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=25) 3763D2748B1EC0922C0235077BB2FFED {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1589889897.928][INFO]: Done waiting for pending navigations. Status: ok
+[1589889897.928][INFO]: [cd93d3cc5af9190ee7f4da4143b2ebae] RESPONSE Navigate
